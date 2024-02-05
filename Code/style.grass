@@ -1,0 +1,251 @@
+node {
+  diameter: 50px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+}
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: "<type>";
+}
+node.Number {
+  color: #C990C0;
+  border-color: #b261a5;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I7 {
+  color: #F79767;
+  border-color: #f36924;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I77 {
+  color: #57C7E3;
+  border-color: #23b3d7;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I119 {
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I161 {
+  color: #D9C8AE;
+  border-color: #c0a378;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I203 {
+  color: #8DCC93;
+  border-color: #5db665;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.Class1 {
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{Factors}";
+  caption: "{ID}";
+}
+node.InterClass {
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I49 {
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I2597 {
+  color: #DA7194;
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I2891 {
+  color: #569480;
+  border-color: #447666;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I13 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I91 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I19 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I31 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I221 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I299 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I377 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I437 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I551 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I11 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.Class5 {
+  defaultCaption: "<id>";
+  caption: "{Factors}";
+  caption: "{ID}";
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #2A2C34;
+}
+node.I17 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I23 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I29 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I37 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I1517 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I1739 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I1961 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I2183 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I43 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I61 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I67 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I73 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I79 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I2021 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I2279 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I2537 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I4757 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I5159 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I5561 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I5963 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I5621 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I6059 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I6497 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I6557 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I7031 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I41 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}
+node.I47 {
+  defaultCaption: "<id>";
+  caption: "{ID}";
+}

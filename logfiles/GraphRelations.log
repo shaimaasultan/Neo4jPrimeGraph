@@ -1,0 +1,128 @@
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6001 AND b.ID = 6001
+        MERGE (a)-[r:FactoredBy {name : "I6001" , Factor : 6001}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6007 AND b.ID = 6007
+        MERGE (a)-[r:FactoredBy {name : "I6007" , Factor : 6007}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6013 AND b.ID = 6013
+        MERGE (a)-[r:FactoredBy {name : "I6013" , Factor : 6013}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6019 AND b.ID = 6019
+        MERGE (a)-[r:FactoredBy {name : "I6019" , Factor : 6019}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6031 AND b.ID = 6031
+        MERGE (a)-[r:FactoredBy {name : "I6031" , Factor : 6031}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6037 AND b.ID = 6037
+        MERGE (a)-[r:FactoredBy {name : "I6037" , Factor : 6037}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6043 AND b.ID = 6043
+        MERGE (a)-[r:FactoredBy {name : "I6043" , Factor : 6043}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6049 AND b.ID = 6049
+        MERGE (a)-[r:FactoredBy {name : "I6049" , Factor : 6049}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6061 AND b.ID = 6061
+        MERGE (a)-[r:FactoredBy {name : "I6061" , Factor : 6061}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6067 AND b.ID = 6067
+        MERGE (a)-[r:FactoredBy {name : "I6067" , Factor : 6067}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6073 AND b.ID = 6073
+        MERGE (a)-[r:FactoredBy {name : "I6073" , Factor : 6073}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6079 AND b.ID = 6079
+        MERGE (a)-[r:FactoredBy {name : "I6079" , Factor : 6079}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6091 AND b.ID = 6091
+        MERGE (a)-[r:FactoredBy {name : "I6091" , Factor : 6091}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6097 AND b.ID = 6097
+        MERGE (a)-[r:FactoredBy {name : "I6097" , Factor : 6097}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6103 AND b.ID = 6103
+        MERGE (a)-[r:FactoredBy {name : "I6103" , Factor : 6103}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6109 AND b.ID = 6109
+        MERGE (a)-[r:FactoredBy {name : "I6109" , Factor : 6109}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6121 AND b.ID = 6121
+        MERGE (a)-[r:FactoredBy {name : "I6121" , Factor : 6121}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6127 AND b.ID = 6127
+        MERGE (a)-[r:FactoredBy {name : "I6127" , Factor : 6127}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6133 AND b.ID = 6133
+        MERGE (a)-[r:FactoredBy {name : "I6133" , Factor : 6133}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6139 AND b.ID = 6139
+        MERGE (a)-[r:FactoredBy {name : "I6139" , Factor : 6139}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6151 AND b.ID = 6151
+        MERGE (a)-[r:FactoredBy {name : "I6151" , Factor : 6151}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6157 AND b.ID = 6157
+        MERGE (a)-[r:FactoredBy {name : "I6157" , Factor : 6157}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6163 AND b.ID = 6163
+        MERGE (a)-[r:FactoredBy {name : "I6163" , Factor : 6163}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6169 AND b.ID = 6169
+        MERGE (a)-[r:FactoredBy {name : "I6169" , Factor : 6169}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6181 AND b.ID = 6181
+        MERGE (a)-[r:FactoredBy {name : "I6181" , Factor : 6181}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6187 AND b.ID = 6187
+        MERGE (a)-[r:FactoredBy {name : "I6187" , Factor : 6187}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6193 AND b.ID = 6193
+        MERGE (a)-[r:FactoredBy {name : "I6193" , Factor : 6193}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6199 AND b.ID = 6199
+        MERGE (a)-[r:FactoredBy {name : "I6199" , Factor : 6199}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6211 AND b.ID = 6211
+        MERGE (a)-[r:FactoredBy {name : "I6211" , Factor : 6211}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6217 AND b.ID = 6217
+        MERGE (a)-[r:FactoredBy {name : "I6217" , Factor : 6217}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6223 AND b.ID = 6223
+        MERGE (a)-[r:FactoredBy {name : "I6223" , Factor : 6223}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6229 AND b.ID = 6229
+        MERGE (a)-[r:FactoredBy {name : "I6229" , Factor : 6229}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6011 AND b.ID = 6011
+        MERGE (a)-[r:FactoredBy {name : "I6011" , Factor : 6011}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6017 AND b.ID = 6017
+        MERGE (a)-[r:FactoredBy {name : "I6017" , Factor : 6017}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6023 AND b.ID = 6023
+        MERGE (a)-[r:FactoredBy {name : "I6023" , Factor : 6023}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6029 AND b.ID = 6029
+        MERGE (a)-[r:FactoredBy {name : "I6029" , Factor : 6029}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6041 AND b.ID = 6041
+        MERGE (a)-[r:FactoredBy {name : "I6041" , Factor : 6041}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6047 AND b.ID = 6047
+        MERGE (a)-[r:FactoredBy {name : "I6047" , Factor : 6047}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6053 AND b.ID = 6053
+        MERGE (a)-[r:FactoredBy {name : "I6053" , Factor : 6053}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6059 AND b.ID = 6059
+        MERGE (a)-[r:FactoredBy {name : "I6059" , Factor : 6059}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6071 AND b.ID = 6071
+        MERGE (a)-[r:FactoredBy {name : "I6071" , Factor : 6071}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6077 AND b.ID = 6077
+        MERGE (a)-[r:FactoredBy {name : "I6077" , Factor : 6077}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6083 AND b.ID = 6083
+        MERGE (a)-[r:FactoredBy {name : "I6083" , Factor : 6083}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6089 AND b.ID = 6089
+        MERGE (a)-[r:FactoredBy {name : "I6089" , Factor : 6089}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6101 AND b.ID = 6101
+        MERGE (a)-[r:FactoredBy {name : "I6101" , Factor : 6101}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6107 AND b.ID = 6107
+        MERGE (a)-[r:FactoredBy {name : "I6107" , Factor : 6107}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6113 AND b.ID = 6113
+        MERGE (a)-[r:FactoredBy {name : "I6113" , Factor : 6113}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6119 AND b.ID = 6119
+        MERGE (a)-[r:FactoredBy {name : "I6119" , Factor : 6119}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6131 AND b.ID = 6131
+        MERGE (a)-[r:FactoredBy {name : "I6131" , Factor : 6131}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6137 AND b.ID = 6137
+        MERGE (a)-[r:FactoredBy {name : "I6137" , Factor : 6137}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6143 AND b.ID = 6143
+        MERGE (a)-[r:FactoredBy {name : "I6143" , Factor : 6143}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6149 AND b.ID = 6149
+        MERGE (a)-[r:FactoredBy {name : "I6149" , Factor : 6149}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6161 AND b.ID = 6161
+        MERGE (a)-[r:FactoredBy {name : "I6161" , Factor : 6161}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6167 AND b.ID = 6167
+        MERGE (a)-[r:FactoredBy {name : "I6167" , Factor : 6167}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6173 AND b.ID = 6173
+        MERGE (a)-[r:FactoredBy {name : "I6173" , Factor : 6173}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6179 AND b.ID = 6179
+        MERGE (a)-[r:FactoredBy {name : "I6179" , Factor : 6179}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6191 AND b.ID = 6191
+        MERGE (a)-[r:FactoredBy {name : "I6191" , Factor : 6191}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6197 AND b.ID = 6197
+        MERGE (a)-[r:FactoredBy {name : "I6197" , Factor : 6197}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6203 AND b.ID = 6203
+        MERGE (a)-[r:FactoredBy {name : "I6203" , Factor : 6203}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6209 AND b.ID = 6209
+        MERGE (a)-[r:FactoredBy {name : "I6209" , Factor : 6209}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6221 AND b.ID = 6221
+        MERGE (a)-[r:FactoredBy {name : "I6221" , Factor : 6221}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6227 AND b.ID = 6227
+        MERGE (a)-[r:FactoredBy {name : "I6227" , Factor : 6227}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6233 AND b.ID = 6233
+        MERGE (a)-[r:FactoredBy {name : "I6233" , Factor : 6233}]->(b) 
+;MATCH (a:Number), (b:Number) WHERE a.ID = 6239 AND b.ID = 6239
+        MERGE (a)-[r:FactoredBy {name : "I6239" , Factor : 6239}]->(b) 

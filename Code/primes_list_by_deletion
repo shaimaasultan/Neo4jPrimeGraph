@@ -1,0 +1,91 @@
+import logging
+import time
+from datetime import datetime
+from logging.handlers import MemoryHandler ,RotatingFileHandler
+N = 100000
+batch = 100000
+lg = logging.getLogger("Nodes")
+lg.setLevel(logging.INFO)
+hnd=logging.FileHandler("PrimeGraph\Plist_{}_batch{}.lg".format(str(N*6),str(batch)),"w")
+memory_handler = MemoryHandler(100, flushLevel=logging.INFO, target=hnd, flushOnClose=True)
+hnd.setLevel(logging.INFO)
+lg.addHandler(hnd)
+
+l7 = [] 
+lg.info('==============================================')
+start_T = time.time()
+lg.info('Start Time {} {}'.format(start_T,datetime.now()))
+lg.info('==============================================')
+for i in range(1,N):
+    p = (i*6 + 1)
+    if str(p).endswith('5'): continue
+    l7.append(p)
+    if str(p+4).endswith('5'): continue
+    l7.append(p+4)
+
+
+lg.info("List Ready for composite filter")
+
+l=[7]
+for i in l7:
+    if i not in l : continue
+    l = list(filter(lambda x : x%(i) != 0 , l7))
+    if len(l) > 0 :
+        l7 = l
+    l7.insert(0,i)
+    #lg.info(i)
+
+lg.info('==============================================')
+#if (Factors == False) : PrimesBefore(N)
+End_T = time.time()
+lg.info('End Time {} {} ; Duration in sec {} ; Duration in minutes {}'.format(End_T,datetime.now() , End_T - start_T , (End_T - start_T)/60.0 ))
+lg.info("N = {} and L = {} and L7 = {}".format(str(N*6),str(len(l7)), str(len(l)) ) )
+lg.info('==============================================')
+
+
+lg.info(N)
+l7.reverse()
+lg.info(l7)
+''' next batch '''
+lg.info("Next Batch")
+lg.info('==============================================')
+start_T = time.time()
+lg.info('Start Time {} {}'.format(start_T,datetime.now()))
+lg.info('==============================================')
+ind = int(((l[-1] +4) - 5) / 6)
+lg.info("l7 length before batch = {}".format(str(len(l7))))
+lg.info("ind ={} , l[0] = {} , l[-1] = {} , l7[0] ={} , l7[-1] = {} ".format(ind , l[0] , l[-1] , l7[0] , l7[-1]))
+
+for i in range(ind,ind+batch):
+    p = (i*6 + 1)
+    if str(p).endswith('5'): continue
+    l7.append(p)
+    if str(p+4).endswith('5'): continue
+    l7.append(p+4)
+
+lg.info("l7 length after batch = {}".format(str(len(l7))))
+lg.info("List Ready for composite filter")
+#lg.info(l7)
+l=[7]
+for i in l7:
+    if i not in l : continue
+    l = list(filter(lambda x : x%(i) != 0 , l7))
+    if len(l) > 0 :
+        l7 = l
+    l7.insert(0,i)
+    #lg.info(i)
+l7.reverse()
+lg.info(l7)
+    
+
+lg.info('==============================================')
+#if (Factors == False) : PrimesBefore(N)
+End_T = time.time()
+lg.info('End Time {} {} ; Duration in sec {} ; Duration in minutes {}'.format(End_T,datetime.now() , End_T - start_T , (End_T - start_T)/60.0 ))
+lg.info("N = {}  and batch= {} and L = {} and L7 = {}".format(str(N*6) , str(batch),str(len(l7)), str(len(l)) ) )
+lg.info('==============================================')
+hnd.close()
+
+
+
+
